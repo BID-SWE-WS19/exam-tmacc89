@@ -4,6 +4,8 @@ import static org.junit.Assert.assertTrue;
 
 import org.junit.Test;
 
+import java.util.Date;
+
 /**
  * Unit test for simple App.
  */
@@ -13,8 +15,10 @@ public class AppTest
      * Rigorous Test :-)
      */
     @Test
-    public void shouldAnswerWithTrue()
+    public void TestPrintState()
     {
-        assertTrue( true );
+        boolean var1 = true;
+        Date var2 = new Date();
+        String var3 = "red";
     }
 }
