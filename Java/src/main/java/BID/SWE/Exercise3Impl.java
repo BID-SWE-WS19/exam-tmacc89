@@ -5,11 +5,6 @@ import java.util.Arrays;
 public class Exercise3Impl implements Exercise3
 {
 
-
-    public abstract class Method1 extends extends Map{
-
-    }
-
     public abstract class Bewegung {
         public void Position() {};
         public void   Move(int x){};
